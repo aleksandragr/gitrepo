@@ -13,4 +13,9 @@ public class EmployeeController {
 	public String index() {
 		return "Hello from employee";
 	}
+	
+	@GetMapping("/getEmployee")
+	public String getEmployee() {
+		return "Employee: Aleksandra Grujic";
+	}
 }
